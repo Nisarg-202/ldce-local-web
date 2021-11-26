@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="owlcarousel/assets/owl.theme.default.min.css"
+    />
+
+    <title>L.D. College of Engineering</title>
+    <link rel="icon" href="images/ldce_logo.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      .ajadimodal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 999; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+      }
+
+      /* Modal Content/Box */
+      .ajadi-modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+        /* height: 50%; */
+      }
+
+      /* The Close Button */
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        position: fixed;
+        right: 0;
+        top: 40%;
+        transform: translateY(-40%);
+        writing-mode: vertical-rl;
+        z-index: 999;
+      "
+    >
+      <a
+        style="
+          color: #fff;
+          background-color: blue;
+          text-transform: uppercase;
+          font-weight: bold;
+          display: block;
+          white-space: nowrap;
+          padding: 10px;
+          text-decoration: none;
+        "
+        href="https://www.ldcealumni.net/LD75OutReach"
+        title="LD@75 OUTREACH DATABASE"
+        >LD@75 Outreach <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Database</a
+      >
+    </div>
+
+    <!-- <div
+      class="modal fade"
+      id="aajadiModal"
+      tabindex="-1"
+      aria-labelledby="aajadiModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <a href="https://amritmahotsav.nic.in/">
+              <img
+                src="images/ajadi_ka_amrit_mahotsav.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div id="ajadiModal" class="ajadimodal">
+      <!-- Modal content -->
+      <div class="ajadi-modal-content">
+        <span class="close">&times;</span>
+        <img
+          src="images/ajadi_ka_amrit_mahotsav.jpg"
+          alt=""
+          height="100%"
+          width="100%"
+        />
+      </div>
+    </div>
+
+    <div class="right-side-header text-end container">
+      <a href="#" class="right-side-header-link">STUDY IN GUJARAT</a>|
+      <a href="#" class="right-side-header-link">GRIEVANCE</a>|
+      <a href="#" class="right-side-header-link">SITEMAP</a>|
+      <a href="#" class="right-side-header-link">STUDENT SECTION</a>|
+      <a href="#" class="right-side-header-link">FEES PAYMENT</a>|
+      <a href="#" class="right-side-header-link">CONTACT</a>
+    </div>
+
+    <div class="ldce-header-icons container my-3">
+      <img class="ldce_icon" src="images/ldce_icon.png" alt="" />
+      <img class="affiliated_icon" src="images/affiliated_icon.png" alt="" />
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 col-12 my-4">
+          <div class="header-carousel shadow">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active caro-1 container-fluid">
+                  <div class="carousel-data">
+                    <h6 class="carousel-title">GEN-NEXT ARCHITECTURE</h6>
+                    <p class="carousel-description">
+                      LDCE’s campus consists of a fine mix of new and modern
+                      buildings built with utmost finesse.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item caro-2 container-fluid">
+                  <div class="carousel-data">
+                    <h6 class="carousel-title">PICTURESQUE @ NIGHT</h6>
+                    <p class="carousel-description">
+                      The beauty of campus during twilight and night time has
+                      the capability to engross each and every individual.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item caro-3 container-fluid">
+                  <div class="carousel-data">
+                    <h6 class="carousel-title">BEST STUDENT STARTUP AWARD</h6>
+                    <p class="carousel-description">
+                      Roshan Rawal, Computer Engineering Student, LDCE received
+                      Best Student Startup award at GTU Convocation, 2020
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 my-4">
+          <!-- <div class="container shadow p-4 rounded-3" id="news-updates">
+            <h2 class="mission-title text-left">News & Updates</h2>
+            <div class="hr-style"></div>
+            <div class="news-updates-height mt-3">
+              <div class="news-updates-data">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+            </div>
+            <div class="all-news-button mt-2">
+              <button class="all-news-button-style">All News</button>
+            </div>
+          </div> -->
+          <div class="container shadow p-4 rounded-3" id="placement-updates">
+            <h2 class="mission-title text-left">Placement Updates</h2>
+            <div class="hr-style"></div>
+            <div class="placement-updates-height mt-3">
+              <div class="news-updates-data">
+                <!-- <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div> -->
+                <div>
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <!-- <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div> -->
+                <div>
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <!-- <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div> -->
+                <div>
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <!-- <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div> -->
+                <div>
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <!-- <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div> -->
+                <div>
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <!-- <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div> -->
+                <div>
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+            </div>
+            <div class="all-news-button mt-2">
+              <button class="all-news-button-style">All Updates</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="welcome container">
+      <div class="row">
+        <div class="col-lg-8 col-12 my-5">
+          <div class="text-left shadow p-4 rounded-3">
+            <h2 class="welcome-title">Welcome To LDCE</h2>
+            <div class="hr-style"></div>
+            <p class="welcome-description mt-3">
+              <b>L. D. College of Engineering</b> endearingly known as
+              <b>L.D.C.E</b> is Ahmedabad’s premier engineering college situated
+              at city’s heart surrounded by elite organization Like
+              <b>PRL, ATIRA, ISRO, IIM and CEPT.</b> Started in 1948 with an aim
+              of imparting quality higher education in various fields of
+              engineering, it has seen unprecedented growth.
+            </p>
+            <p class="mt-2 welcome-description">
+              It is affiliated with Gujarat Technological University &
+              administrated by Department of Technical Education, Government of
+              Gujarat.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12 my-5">
+          <!-- <div class="container shadow p-4 rounded-3" id="placement-updates">
+            <h2 class="mission-title text-left">Placement Updates</h2>
+            <div class="hr-style"></div>
+            <div class="placement-updates-height mt-3">
+              <div class="news-updates-data">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+            </div>
+            <div class="all-news-button mt-2">
+              <button class="all-news-button-style">All Updates</button>
+            </div>
+          </div> -->
+
+          <div class="container shadow p-4 rounded-3" id="news-updates">
+            <h2 class="mission-title text-left">News & Updates</h2>
+            <div class="hr-style"></div>
+            <div class="news-updates-height mt-3">
+              <div class="news-updates-data">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+            </div>
+            <div class="all-news-button mt-2">
+              <button class="all-news-button-style">All News</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12 my-5">
+          <div class="vision-mission-box shadow container rounded-3">
+            <div class="row">
+              <div
+                class="
+                  col-6
+                  p-2
+                  d-flex
+                  flex-row
+                  justify-content-center
+                  vision-clickable-text
+                "
+              >
+                Vision
+              </div>
+              <div
+                class="
+                  col-6
+                  p-2
+                  d-flex
+                  flex-row
+                  justify-content-center
+                  mission-clickable-text
+                  add-background-to-vision-mission
+                  add-text-color-white-to-vision-mission
+                "
+              >
+                Mission
+              </div>
+            </div>
+            <div class="vision-mission-data container p-4">
+              <p class="mission-description mt-3">
+                <i class="far fa-hand-point-right"></i> <span></span>
+                To impart affordable and quality education in order to meet the
+                needs of industries and achieve excellence in teaching-learning
+                process.
+              </p>
+              <p class="mission-description mt-3">
+                <i class="far fa-hand-point-right"></i> <span></span>
+                To create a conducive research ambience that drives innovation
+                and nurtures research-oriented scholars and outstanding
+                professionals.
+              </p>
+              <p class="mission-description mt-3">
+                <i class="far fa-hand-point-right"></i> <span></span>
+                To collaborate with other academic & research institutes as well
+                as industries in order to strengthen education and
+                multidisciplinary research.
+              </p>
+              <p class="mission-description mt-3">
+                <i class="far fa-hand-point-right"></i> <span></span>
+                To promote equitable and harmonious growth of students,
+                academicians, staff, society and industries, thereby becoming a
+                center of excellence in technical education.
+              </p>
+              <p class="mission-description mt-3">
+                <i class="far fa-hand-point-right"></i> <span></span>
+                To practise and encourage high standards of professional ethics,
+                transparency and accountability.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12 my-5">
+          <div class="container shadow p-4 rounded-3" id="innovation-updates">
+            <h2 class="mission-title text-left">Startup & Innovation</h2>
+            <div class="hr-style"></div>
+            <div class="innovation-height mt-3">
+              <div class="news-updates-data">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+            </div>
+            <div class="all-news-button mt-2">
+              <button class="all-news-button-style">All News</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="vision container mt-5 text-left shadow-sm p-4">
+      <h2 class="vision-title">Vision</h2>
+      <div class="hr-style"></div>
+      <p class="vision-description mt-3">
+        <i class="far fa-hand-point-right"></i> <span></span>
+        To contribute for sustainable development of nation through achieving
+        excellence in technical education and research while facilitating
+        transformation of students into responsible citizens and competent
+        professionals.
+      </p>
+    </div> -->
+
+    <!-- <div class="mission container mt-5 text-left shadow-sm p-4">
+      <h2 class="mission-title">Mission</h2>
+      <div class="hr-style"></div>
+      <p class="mission-description mt-3">
+        <i class="far fa-hand-point-right"></i> <span></span>
+        To impart affordable and quality education in order to meet the needs of
+        industries and achieve excellence in teaching-learning process.
+      </p>
+      <p class="mission-description mt-3">
+        <i class="far fa-hand-point-right"></i> <span></span>
+        To create a conducive research ambience that drives innovation and
+        nurtures research-oriented scholars and outstanding professionals.
+      </p>
+      <p class="mission-description mt-3">
+        <i class="far fa-hand-point-right"></i> <span></span>
+        To collaborate with other academic & research institutes as well as
+        industries in order to strengthen education and multidisciplinary
+        research.
+      </p>
+      <p class="mission-description mt-3">
+        <i class="far fa-hand-point-right"></i> <span></span>
+        To promote equitable and harmonious growth of students, academicians,
+        staff, society and industries, thereby becoming a center of excellence
+        in technical education.
+      </p>
+      <p class="mission-description mt-3">
+        <i class="far fa-hand-point-right"></i> <span></span>
+        To practise and encourage high standards of professional ethics,
+        transparency and accountability.
+      </p>
+    </div> -->
+
+    <!-- <div class="news-updates-achievements mt-5 container">
+      <div class="row">
+        <div class="col-12 col-lg-6 mt-4">
+          <div class="container shadow p-4 rounded" id="news-updates">
+            <h2 class="mission-title text-left">News & Updates</h2>
+            <div class="hr-style"></div>
+            <div class="news-updates-height mt-3">
+              <div class="news-updates-data">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img src="images/news-1.png" alt="" height="60" width="60" />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    Quotations for equipment repairing phase 5
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+            </div>
+            <div class="all-news-button mt-2">
+              <button class="all-news-button-style">All News</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-4">
+          <div class="shadow rounded" style="height: 350px" id="video-1">
+            <iframe
+              class="rounded"
+              style="width: 100%; height: 100%"
+              src="https://www.youtube-nocookie.com/embed/May7TpfY3Jk?autoplay=1&mute=1"
+              title="YouTube video player"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div> -->
+    <!-- <div class="container shadow p-4">
+            <h2 class="mission-title text-left">Achievements</h2>
+            <div class="hr-style"></div>
+            <div class="news-updates-height mt-3">
+              <div class="news-updates-data">
+                <div>
+                  <img
+                    class="mt-1"
+                    src="images/achievement-1.jpg"
+                    alt=""
+                    height="70"
+                    width="100"
+                  />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    SSIP Prashansha Award 2020-Best Campus Startups/early birds
+                    awarded to Malav Shah for SSIP Project-Reolo
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img
+                    class="mt-1"
+                    src="images/achievement-2.jpg"
+                    alt=""
+                    height="70"
+                    width="100"
+                  />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    SSIP Prashansha Award 2020-SSIP Coordinator Best Institute
+                    awarded to Prof( Dr.) Manish Thakkar
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img
+                    class="mt-1"
+                    src="images/achievement-1.jpg"
+                    alt=""
+                    height="70"
+                    width="100"
+                  />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    SSIP Prashansha Award 2020-Best Campus Startups/early birds
+                    awarded to Malav Shah for SSIP Project-Reolo
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+            </div>
+            <div class="all-news-button mt-2">
+              <button class="all-news-button-style">All Achievement</button>
+            </div>
+          </div> -->
+    <!-- </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="placement-ssip mt-5 container">
+      <div class="row">
+        <div class="col-12 col-lg-6 mt-4">
+          <div class="shadow rounded" style="height: 350px" id="video-2">
+            <iframe
+              class="rounded"
+              style="width: 100%; height: 100%"
+              src="https://www.youtube-nocookie.com/embed/May7TpfY3Jk?autoplay=1&mute=1"
+              title="YouTube video player"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div> -->
+    <!-- <div class="container shadow p-4">
+            <h2 class="mission-title text-left">Placement Update</h2>
+            <div class="hr-style"></div>
+            <div class="placement-height mt-3">
+              <div class="mt-1">
+                <a class="placement-title">
+                  <i class="far fa-hand-point-right"></i> <span></span> 28
+                  students received placement offers from Bacancy Technology.
+                </a>
+              </div>
+              <div class="mt-3">
+                <a class="placement-title mt-5">
+                  <i class="far fa-hand-point-right"></i> <span></span> 13
+                  students received placement offers from Tatvasoft.
+                </a>
+              </div>
+              <div class="mt-3">
+                <a class="placement-title mt-5">
+                  <i class="far fa-hand-point-right"></i> <span></span> 11
+                  students shortlisted for interviews through Codevita Coding
+                  Competition by TCS
+                </a>
+              </div>
+              <div class="mt-3">
+                <a class="placement-title mt-5">
+                  <i class="far fa-hand-point-right"></i> <span></span>
+                  11 students shortlisted for interviews through Codevita Coding
+                  Competition by TCS
+                </a>
+              </div>
+            </div>
+            <div class="all-news-button mt-2">
+              <button class="all-news-button-style">Read More</button>
+            </div>
+          </div> -->
+    <!-- </div>
+        <div class="col-12 col-lg-6 mt-4"> -->
+    <!-- <div class="container shadow p-4">
+            <h2 class="mission-title text-left">Research & Innovation</h2>
+            <div class="hr-style"></div>
+            <div class="placement-height mt-3">
+              <div class="mt-1">
+                <a class="placement-title">
+                  <i class="far fa-hand-point-right"></i>
+                  <span></span> Evaluation of Sub-grad Modulus and Load
+                  settlement characteristics of Clay-gravel soil mixtures by
+                  Plate Load Test
+                </a>
+              </div>
+              <div class="mt-3">
+                <a class="placement-title mt-5">
+                  <i class="far fa-hand-point-right"></i> <span></span> 13
+                  Optimization of House hold Solar Panel Mounting Structure
+                </a>
+              </div>
+              <div class="mt-3">
+                <a class="placement-title mt-5">
+                  <i class="far fa-hand-point-right"></i> <span></span> 11 Water
+                  Absorbing Concrete Block
+                </a>
+              </div>
+              <div class="mt-3">
+                <a class="placement-title mt-5">
+                  <i class="far fa-hand-point-right"></i> <span></span>
+                  Unmanned Aerial Vehicle (UAV) For Surveillance, Path and
+                  Object Tracking
+                </a>
+              </div>
+              <div class="mt-3">
+                <a class="placement-title mt-5">
+                  <i class="far fa-hand-point-right"></i> <span></span>
+                  Leap Motion Based Gesture Recognized Vocal System
+                </a>
+              </div>
+            </div>
+            <div class="all-news-button mt-2">
+              <button class="all-news-button-style">Read More</button>
+            </div>
+          </div> -->
+
+    <!-- <div class="container rounded shadow p-4" id="achievements">
+            <h2 class="mission-title text-left">Achievements</h2>
+            <div class="hr-style"></div>
+            <div class="news-updates-height mt-3">
+              <div class="news-updates-data">
+                <div>
+                  <img
+                    class="mt-1"
+                    src="images/achievement-1.jpg"
+                    alt=""
+                    height="70"
+                    width="100"
+                  />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    SSIP Prashansha Award 2020-Best Campus Startups/early birds
+                    awarded to Malav Shah for SSIP Project-Reolo
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img
+                    class="mt-1"
+                    src="images/achievement-2.jpg"
+                    alt=""
+                    height="70"
+                    width="100"
+                  />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    SSIP Prashansha Award 2020-SSIP Coordinator Best Institute
+                    awarded to Prof( Dr.) Manish Thakkar
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+              <div class="news-updates-data mt-3">
+                <div>
+                  <img
+                    class="mt-1"
+                    src="images/achievement-1.jpg"
+                    alt=""
+                    height="70"
+                    width="100"
+                  />
+                </div>
+                <div style="margin-left: 10px">
+                  <a class="news-updates-title">
+                    SSIP Prashansha Award 2020-Best Campus Startups/early birds
+                    awarded to Malav Shah for SSIP Project-Reolo
+                  </a>
+                  <br />
+                  <a class="news-updates-date">26 Jul, 2021</a>
+                </div>
+              </div>
+            </div>
+            <div class="all-news-button mt-2">
+              <button class="all-news-button-style">All Achievement</button>
+            </div>
+          </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
+
+    <div class="container">
+      <div class="shadow rounded-3 container p-4">
+        <h2 class="text-left welcome-title">Achievements</h2>
+        <div class="hr-style"></div>
+        <div class="owl-carousel owl-theme mt-3 achievements-cards">
+          <div class="card shadow" style="width: 100%">
+            <img
+              src="images/achievement-1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Chemical and Instrumentation & Control engineering department
+                accredited by NBA.
+              </h5>
+              <p class="card-text">
+                04 Oct, 2021 <br />
+                Chemical and Instrumentation & Control engineering department
+                accredited by NBA....
+              </p>
+            </div>
+          </div>
+          <div class="card shadow" style="width: 100%">
+            <img
+              src="images/achievement-2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Chemical and Instrumentation & Control engineering department
+                accredited by NBA.
+              </h5>
+              <p class="card-text">
+                04 Oct, 2021 <br />
+                Chemical and Instrumentation & Control engineering department
+                accredited by NBA....
+              </p>
+            </div>
+          </div>
+          <div class="card shadow" style="width: 100%">
+            <img
+              src="images/achievement-1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Chemical and Instrumentation & Control engineering department
+                accredited by NBA.
+              </h5>
+              <p class="card-text">
+                04 Oct, 2021 <br />
+                Chemical and Instrumentation & Control engineering department
+                accredited by NBA....
+              </p>
+            </div>
+          </div>
+          <div class="card shadow" style="width: 100%">
+            <img
+              src="images/achievement-2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Chemical and Instrumentation & Control engineering department
+                accredited by NBA.
+              </h5>
+              <p class="card-text">
+                04 Oct, 2021 <br />
+                Chemical and Instrumentation & Control engineering department
+                accredited by NBA....
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="placement-companies container mt-5 shadow rounded-3 p-4">
+        <h2 class="mission-title text-left">Placement Companies</h2>
+        <div class="hr-style"></div>
+        <div class="mt-3">
+          <div class="owl-carousel owl-theme placement-cards">
+            <img
+              class="mx-3"
+              src="images/placement-company-1.png"
+              alt=""
+              height="150"
+              width="150"
+            />
+            <img
+              class="mx-3"
+              src="images/placement-company-2.png"
+              alt=""
+              height="150"
+              width="150"
+            />
+            <img
+              class="mx-3"
+              src="images/placement-company-3.png"
+              alt=""
+              height="150"
+              width="150"
+            />
+            <img
+              class="mx-3"
+              src="images/placement-company-4.png"
+              alt=""
+              height="150"
+              width="150"
+            />
+            <img
+              class="mx-3"
+              src="images/placement-company-1.png"
+              alt=""
+              height="150"
+              width="150"
+            />
+            <img
+              class="mx-3"
+              src="images/placement-company-2.png"
+              alt=""
+              height="150"
+              width="150"
+            />
+            <img
+              class="mx-3"
+              src="images/placement-company-3.png"
+              alt=""
+              height="150"
+              width="150"
+            />
+            <img
+              class="mx-3"
+              src="images/placement-company-4.png"
+              alt=""
+              height="150"
+              width="150"
+            />
+            <img
+              class="mx-3"
+              src="images/placement-company-1.png"
+              alt=""
+              height="150"
+              width="150"
+            />
+            <img
+              class="mx-3"
+              src="images/placement-company-2.png"
+              alt=""
+              height="150"
+              width="150"
+            />
+            <img
+              class="mx-3"
+              src="images/placement-company-3.png"
+              alt=""
+              height="150"
+              width="150"
+            />
+            <img
+              class="mx-3"
+              src="images/placement-company-4.png"
+              alt=""
+              height="150"
+              width="150"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5">
+      <iframe
+        width="100%"
+        height="600"
+        src="https://www.youtube.com/embed/VcsnVJ5BFWQ?playsinline=0&loop=1&rel=0&autohide=1&autoplay=1&showinfo=0&controls=0&mute=1&modestbranding=1"
+        title="YouTube video player"
+        frameborder="0"
+        allowfullscreen
+        allow="autoplay"
+      ></iframe>
+    </div>
+
+    <div class="footer mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-3 mt-3">
+            <div class="container">
+              <h2 class="footer-title text-left">Quick Links</h2>
+              <div class="footer-hr-style"></div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">CAMPUS MAP</a>
+              </div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">USEFUL LINKS</a>
+              </div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">HDFC ONLINE PAYMENT</a>
+              </div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">STUDENT INDUCTION PROGRAM</a>
+              </div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">TEAM</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 mt-3">
+            <div class="container">
+              <h2 class="footer-title text-left">About</h2>
+              <div class="footer-hr-style"></div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">HISTORY</a>
+              </div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">ADMISSION PROCEDURE</a>
+              </div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">DIRECTIONS</a>
+              </div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">FEES & SCHOLARSHIPS</a>
+              </div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">COMMITTEES</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 mt-3">
+            <div class="container">
+              <h2 class="footer-title text-left">Contact Us</h2>
+              <div class="footer-hr-style"></div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle"
+                  >L.D. College of Engineering</a
+                >
+              </div>
+              <div class="mt-2">
+                <p class="footer-subtitle">Opp Gujarat University,</p>
+              </div>
+              <div class="mt-2">
+                <p class="footer-subtitle">Navrangpura, Ahmedabad - 380015.</p>
+              </div>
+              <div class="mt-2">
+                <p class="footer-subtitle">GUJARAT INDIA</p>
+              </div>
+              <div class="mt-2">
+                <p class="footer-subtitle">Phone No: 079 2630 2887</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 mt-3">
+            <div class="container">
+              <h2 class="footer-title text-left">Map</h2>
+              <div class="footer-hr-style"></div>
+              <iframe
+                class="mt-2"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.726699612276!2d72.54439531461189!3d23.03380492168902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84eaf57ac615%3A0x5c7498bb96b34c97!2sLalbhai%20Dalpatbhai%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1635592681595!5m2!1sen!2sin"
+                width="100%"
+                height="150"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <!-- <div class="mt-2">
+                <a href="" class="footer-subtitle">RIGHT TO INFO. ACT</a>
+              </div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">MOU</a>
+              </div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">TEQUIP</a>
+              </div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">MANDATORY DISCLOSURE</a>
+              </div>
+              <div class="mt-2">
+                <a href="" class="footer-subtitle">TENDER NOTICE</a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- <script src="jquery.min.js"></script> -->
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/index.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+    <script>
+      var modal = document.getElementById("ajadiModal");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks on the button, open the modal
+      setTimeout(function () {
+        modal.style.display = "block";
+      }, 2000);
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
