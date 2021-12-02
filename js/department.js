@@ -20,12 +20,6 @@ document
         "add-text-color-white-to-vision-mission"
       );
     document
-      .querySelector(".facilities-clickable-text")
-      .classList.remove(
-        "add-background-to-vision-mission",
-        "add-text-color-white-to-vision-mission"
-      );
-    document
       .querySelector(".vision-clickable-text")
       .classList.add(
         "add-background-to-vision-mission",
@@ -59,12 +53,6 @@ document
       );
     document
       .querySelector(".peos-clickable-text")
-      .classList.remove(
-        "add-background-to-vision-mission",
-        "add-text-color-white-to-vision-mission"
-      );
-    document
-      .querySelector(".facilities-clickable-text")
       .classList.remove(
         "add-background-to-vision-mission",
         "add-text-color-white-to-vision-mission"
@@ -128,12 +116,6 @@ document
         "add-text-color-white-to-vision-mission"
       );
     document
-      .querySelector(".facilities-clickable-text")
-      .classList.remove(
-        "add-background-to-vision-mission",
-        "add-text-color-white-to-vision-mission"
-      );
-    document
       .querySelector(".peos-clickable-text")
       .classList.add(
         "add-background-to-vision-mission",
@@ -185,12 +167,6 @@ document
         "add-text-color-white-to-vision-mission"
       );
     document
-      .querySelector(".facilities-clickable-text")
-      .classList.remove(
-        "add-background-to-vision-mission",
-        "add-text-color-white-to-vision-mission"
-      );
-    document
       .querySelector(".psos-clickable-text")
       .classList.add(
         "add-background-to-vision-mission",
@@ -217,67 +193,6 @@ document
 <p class="mission-description mt-3">
   <i class="far fa-hand-point-right"></i> <span></span>
   PSO5: Pursue research and innovation in the field of Civil Engineering & allied fields for betterment of the society.
-</p>`;
-  });
-
-document
-  .querySelector(".facilities-clickable-text")
-  .addEventListener("click", function (e) {
-    document
-      .querySelector(".vision-clickable-text")
-      .classList.remove(
-        "add-background-to-vision-mission",
-        "add-text-color-white-to-vision-mission"
-      );
-    document
-      .querySelector(".peos-clickable-text")
-      .classList.remove(
-        "add-background-to-vision-mission",
-        "add-text-color-white-to-vision-mission"
-      );
-    document
-      .querySelector(".mission-clickable-text")
-      .classList.remove(
-        "add-background-to-vision-mission",
-        "add-text-color-white-to-vision-mission"
-      );
-    document
-      .querySelector(".psos-clickable-text")
-      .classList.remove(
-        "add-background-to-vision-mission",
-        "add-text-color-white-to-vision-mission"
-      );
-    document
-      .querySelector(".facilities-clickable-text")
-      .classList.add(
-        "add-background-to-vision-mission",
-        "add-text-color-white-to-vision-mission"
-      );
-    document.querySelector(
-      ".vision-mission-data"
-    ).innerHTML = `<p class="mission-description mt-3">
-  <i class="far fa-hand-point-right"></i> <span></span>
-  Visweswarayya Hall ( Seminar Hall No 628)
-</p>
-<p class="mission-description mt-3">
-  <i class="far fa-hand-point-right"></i> <span></span>
-  Mechanics of Solids Laboratory
-</p>
-<p class="mission-description mt-3">
-  <i class="far fa-hand-point-right"></i> <span></span>
-  Concrete Technology Laboratory
-</p>
-<p class="mission-description mt-3">
-  <i class="far fa-hand-point-right"></i> <span></span>
-  Geo-tech laboratory and PG Research Lab
-</p>
-<p class="mission-description mt-3">
-  <i class="far fa-hand-point-right"></i> <span></span>
-  Earthquake Engineering Laboratory
-</p>
-<p class="mission-description mt-3">
-  <i class="far fa-hand-point-right"></i> <span></span>
-  Computing Laboratory
 </p>`;
   });
 
