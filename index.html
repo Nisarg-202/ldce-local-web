@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link
+    <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
-    />
+    /> -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -154,6 +155,347 @@
       <img class="ldce_icon" src="images/ldce_icon.png" alt="" />
       <img class="affiliated_icon" src="images/affiliated_icon.png" alt="" />
     </div>
+
+
+    <div class="navbar navbar-default" role="navigation">
+    <nav class="collapse navbar-collapse navbar-responsive-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <!-- <div class="container"> to  <div class="menu_container">  -->
+      <div class="menu_container">
+          <ul class="nav navbar-nav">
+              <li itemprop="name" class="">
+                  <a itemprop="url" href="/">
+                      <i class="icon-home"></i>
+                  </a>
+              </li>
+  
+              <!-- About -->
+              <li class="dropdown mega-menu">
+                  <a href="/about" class="dropdown-toggle" data-toggle="dropdown">About</a>
+                  <ul class="dropdown-menu">
+                      <li>
+                          <div class="row">
+                              <div class="col-md-6">
+                                  <h3>The Institute</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>About LDCE</a></li>
+                                      <!-- <li itemprop="name"><a itemprop="url" href="{{ URL::route('vision_mission') }}"><i class="fa fa-angle-right"></i>Vision &amp; Mission</a></li>-->
+                                      <!-- <li itemprop="name"><a itemprop="url" href="/faculty/rajul.gajjar.706"><i class="fa fa-angle-right"></i>Principal's CV</a></li>   -->
+                                      <li itemprop="name"><a itemprop="url" href="/upload/pdf/about-institute/Principal-CV.pdf" target="_blank"><i class="fa fa-angle-right"></i>Principal's CV</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Principal's Message</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Organization Chart</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Institute Committees</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Center of Excellence - Siemens</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Center of Excellence - Welding</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Newsletters</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Campus Drive</a></li>
+                                      <!--<li itemprop="name"><a itemprop="url" href="{{ URL::route('history') }}"><i class="fa fa-angle-right"></i>History</a></li>-->
+  
+                                  </ul>
+                              </div>
+                              <!-- <div class="col-md-4">
+                                  <h3>Campus Committees</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                 <li itemprop="name"><a itemprop="url" href="http://grievance.ldce.ac.in/" target="_blank"><i class="fa fa-angle-right"></i>Grievance Cell</a></li>   
+                                  <li itemprop="name"><a itemprop="url" href="/upload/pdf/committee/grievance_cell_committee.pdf" target="_blank"><i class="fa fa-angle-right"></i>Grievance Cell Committee</a></li>
+                                  
+                                      <li itemprop="name"><a itemprop="url" href="/upload/pdf/committee/anti_ragging_committee_and_squad.pdf" target="_blank"><i class="fa fa-angle-right"></i>Anti-Ragging Committee and Squad</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/upload/pdf/committee/girls_hostel_management_committee.pdf" target="_blank"><i class="fa fa-angle-right"></i>Girls Hostel Management Committee</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/upload/pdf/committee/sexual_harassment_prevention_committee.pdf" target="_blank"><i class="fa fa-angle-right"></i>Sexual Harassment Prevention Committee</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/upload/pdf/committee/committee_of_students_for_suraksha_setu_yojana.pdf" target="_blank"><i class="fa fa-angle-right"></i>Committee of Students for Suraksha Setu Yojana</a></li>
+                                      
+                                      <li itemprop="name"><a itemprop="url" href="/upload/pdf/committee/women_development_cell.pdf" target="_blank"><i class="fa fa-angle-right"></i>Women development Cell</a></li>
+                                      
+                                       <li itemprop="name"><a itemprop="url" href="/upload/pdf/committee/AISHE_Committee.pdf" target="_blank"><i class="fa fa-angle-right"></i>AISHE Committee</a></li>
+                                      
+                                  </ul>
+                              </div> -->
+                              <div class="col-md-6">
+                                  <h3>Legal Forms</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>MOU</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Mandatory Disclosure</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Tender Notice</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>TEQIP</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Right to Info. Act</a></li>
+                                      <li itemprop="name"><a href="/upload/pdf/legal/LDCE-Faculty-Staff-List.pdf" target="_blank"><i class="fa fa-angle-right"></i>Faculty and Staff list</a></li>
+                                      <li itemprop="name"><a href="/upload/pdf/legal/Admission-and-Reservation.pdf" target="_blank"><i class="fa fa-angle-right"></i>Admission & Reservation</a></li>
+  
+  
+                                  </ul>
+                              </div>
+                              <!--<div class="col-md-3">
+                                  <h3>News</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <li itemprop="name"><a itemprop="url" href="{{ URL::route('news') }}"><i class="fa fa-angle-right"></i>News &amp; Updates</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="{{ URL::route('newsletters') }}"><i class="fa fa-angle-right"></i>Newsletters</a></li>
+                                                 <li itemprop="name"><a itemprop="url" href="{{ URL::route('circular') }}"><i class="fa fa-angle-right"></i>Circulars</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="{{ URL::route('achievements') }}"><i class="fa fa-angle-right"></i>Achievements</a></li>
+                                  </ul>
+                              </div>
+                          </div>-->
+                      </li>
+                  </ul>
+              </li>
+              <!-- Admissions -->
+              <li class="dropdown mega-menu">
+                  <a href="/admissions" class="dropdown-toggle" data-toggle="dropdown">Academics</a>
+                  <ul class="dropdown-menu">
+                      <li>
+                          <div class="row">
+                              <!-- <div class="col-md-6">  it is changed on 01/01/2021    -->
+                              <div class="col-md-4">
+                                  <h3>Intake</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>BE Admissions &amp; Courses</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>PDDC Courses</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>PG Admissions &amp; Courses</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/upload/pdf/admission/phd/2021_AICTE_PHD_APPROVAL_LDCE.pdf" target="_blank"><i class="fa fa-angle-right"></i>Fulltime PhD-ADF scheme(GTU)</a></li>
+                                  </ul>
+                              </div>
+                              <!-- <div class="col-md-6">  it is changed on 01/01/2021    -->
+                              <div class="col-md-4">
+                                  <h3>Academics</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Academic Calender</a></li>
+                                      <!--    <li itemprop="name"><a itemprop="url" href="{{ URL::route('accreditation-status') }}"><i class="fa fa-angle-right"></i>Accreditation Status</a></li>-->
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Brochure</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Fee Structure</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/upload/pdf/EducationVerification.jpg" target="_blank"><i class="fa fa-angle-right"></i>Education Verification</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="https://syllabus.gtu.ac.in/Syllabus.aspx" target="_blank"><i class="fa fa-angle-right"></i>Syllabus</a></li>
+  
+  
+                                      <!--    
+                                    <li itemprop="name"><a itemprop="url" href="/upload/pdf/news/2018/education-verification-CusHwI.pdf" target="_blank"><i class="fa fa-angle-right"></i>Education Verification</a></li> 
+                                     <li itemprop="name"><a itemprop="url" href="{{ URL::route('aicte-eoa') }}"><i class="fa fa-angle-right"></i>AICTE EOA</a></li>  
+                                    -->
+                                  </ul>
+                              </div>
+                              <!-- <div class="col-md-6">  it is changed on 01/01/2021    -->
+                              <div class="col-md-4">
+                                  <h3>Affiliation/Approval/Accreditation</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>AICTE EOA</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/upload/pdf/admission/Policy/AICTE_Enviroment_Policy.pdf" target="_blank"><i class="fa fa-angle-right"></i>AICTE Enviroment Policy</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/upload/pdf/news/2020/NBA_Accreditation_Letter.pdf" target="_blank"><i class="fa fa-angle-right"></i>Accrediated Departments</a></li>
+                                      <!--    <li itemprop="name"><a itemprop="url" href="{{ URL::route('accreditation-status') }}"><i class="fa fa-angle-right"></i>Accrediated Departments</a></li>  -->
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>GTU Affiliation</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>NIRF</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/upload/pdf/admission/Policy/LDCE_GREEN_CAMPUS_POLICY.pdf" target="_blank"><i class="fa fa-angle-right"></i>LDCE GREEN CAMPUS POLICY</a></li>
+  
+                                  </ul>
+                              </div>
+  
+                              <!-- <div class="col-md-4">
+                                  <h3>Post Graduate</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <li itemprop="name"><a itemprop="url" href="{{ URL::route('pg_courses') }}"><i class="fa fa-angle-right"></i>PG Admissions &amp; Courses</a></li>
+                                  </ul>
+                              </div> -->
+                              <!-- <div class="col-md-4">
+                                  <h3>More Information</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <li itemprop="name"><a itemprop="url" href="{{ URL::route('scholarships') }}"><i class="fa fa-angle-right"></i>Scholarships</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="{{ URL::route('brochure') }}"><i class="fa fa-angle-right"></i>Brochure</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="{{ URL::route('fee_structure') }}"><i class="fa fa-angle-right"></i>Fee Structure</a></li>
+                                  </ul>
+                              </div> -->
+                          </div>
+                      </li>
+                  </ul>
+              </li>
+              <!-- End Admissions -->
+  
+              <!-- Departments -->
+              <li class="dropdown mega-menu">
+                  <a href="/departments" class="dropdown-toggle" data-toggle="dropdown">Departments</a>
+                  <ul class="dropdown-menu">
+                      <li>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <h3>Name of Department</h3>
+                                  <div class="divider"></div>
+                                  <div class="row">
+                                      <div class="col-md-3">
+                                          <ul class="menu">
+                                              <li itemprop="name"><a itemprop="url" href="/departments/applied-mechanics"><i class="fa fa-angle-right"></i>Applied Mechanics</a></li>
+                                              <li itemprop="name"><a itemprop="url" href="/departments/biomedical-engineering"><i class="fa fa-angle-right"></i>Bio Medical Engineering</a></li>
+                                              <li itemprop="name"><a itemprop="url" href="/departments/chemical-engineering"><i class="fa fa-angle-right"></i>Chemical Engineering</a></li>
+                                              <li itemprop="name"><a itemprop="url" href="/departments/civil-engineering"><i class="fa fa-angle-right"></i>Civil Engineering</a></li>
+                                          </ul>
+                                      </div>
+                                      <div class="col-md-3">
+                                          <ul class="menu">
+                                              <li itemprop="name"><a itemprop="url" href="/departments/computer-engineering"><i class="fa fa-angle-right"></i>Computer Engineering</a></li>
+                                              <li itemprop="name"><a itemprop="url" href="/departments/electrical-engineering"><i class="fa fa-angle-right"></i>Electrical Engineering</a></li>
+                                              <li itemprop="name"><a itemprop="url" href="/departments/electronics-communication-engineering"><i class="fa fa-angle-right"></i>Electronics &amp; Communication<br><span class="margin-left-20">Engineering</span></a></li>
+                                              <li itemprop="name"><a itemprop="url" href="/departments/environmental-engineering"><i class="fa fa-angle-right"></i>Environmental Engineering</a></li>
+                                          </ul>
+                                      </div>
+                                      <div class="col-md-3">
+                                          <ul class="menu">
+                                              <li itemprop="name"><a itemprop="url" href="/departments/information-technology"><i class="fa fa-angle-right"></i>Information Technology</a></li>
+                                              <li itemprop="name"><a itemprop="url" href="/departments/instrumentation-control-engineering"><i class="fa fa-angle-right"></i>Instrumentation &amp; Control<br><span class="margin-left-20">Engineering</span></a></li>
+                                              <li itemprop="name"><a itemprop="url" href="/departments/general"><i class="fa fa-angle-right"></i>Science and Humanities</a></li>
+                                              <li itemprop="name"><a itemprop="url" href="/departments/mechanical-engineering"><i class="fa fa-angle-right"></i>Mechanical Engineering</a></li>
+                                          </ul>
+                                      </div>
+                                      <div class="col-md-3">
+                                          <ul class="menu">
+                                              <li itemprop="name"><a itemprop="url" href="/departments/plastic-technology"><i class="fa fa-angle-right"></i>Plastic Technology</a></li>
+                                              <li itemprop="name"><a itemprop="url" href="/departments/rubber-technology"><i class="fa fa-angle-right"></i>Rubber Technology</a></li>
+                                              <li itemprop="name"><a itemprop="url" href="/departments/textile-technology"><i class="fa fa-angle-right"></i>Textile Technology</a></li>
+                                              <li itemprop="name"><a itemprop="url" href="/departments/automobile-engineering"><i class="fa fa-angle-right"></i>Automobile Engineering</a></li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </li>
+                  </ul>
+              </li>
+              <!-- End Departments -->
+  
+              <!-- Campus Life -->
+              <li class="dropdown mega-menu">
+                  <a href="/campus-life" class="dropdown-toggle" data-toggle="dropdown">Campus Life</a>
+                  <ul class="dropdown-menu">
+                      <li>
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <h3>Student Life</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>LDCE Clubs</a></li>
+                                      <!--    <li itemprop="name"><a itemprop="url" href="/upload/pdf/committee/Student_Cell_2015.pdf" target="_blank"><i class="fa fa-angle-right"></i>Students Cell</a></li>  -->
+                                      <!--    <li itemprop="name"><a itemprop="url" href="{{ URL::route('industrial_training') }}"><i class="fa fa-angle-right"></i>Industrial Training</a></li>  -->
+                                      <!--    <li><a href="#"><i class="fa fa-angle-right"></i>Events &amp; Activities</a></li    -->
+                                      <!--    <li itemprop="name"><a itemprop="url" href="{{ URL::route('events_activities') }}"><i class="fa fa-angle-right"></i>Events &amp; Activities</a></li> -->
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Photo Gallery</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/clubs/nss"><i class="fa fa-angle-right"></i>National Service Scheme</a></li>
+                                  </ul>
+                              </div>
+                              <div class="col-md-4">
+                                  <h3>Campus Life </h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Sports</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Placement Cell</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Entrepreneurship Cell</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>LDCE Alumni Association</a></li>
+                                      <!--li><a href="#"><i class="fa fa-angle-right"></i>Seminars &amp; Workshops</a></li-->
+                                  </ul>
+                              </div>
+                              <div class="col-md-4">
+                                  <h3>Infrastructure</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Campus Map</a></li>
+                                      <!--li><a href="#"><i class="fa fa-angle-right"></i>Laboratory</a></li>
+                                      <li><a href="#"><i class="fa fa-angle-right"></i>Seminar Halls</a></li-->
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Canteen</a></li>
+                                      <!--li><a href="#"><i class="fa fa-angle-right"></i>Hostel Mess</a></li-->
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Library</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Hostel</a></li>
+                                  </ul>
+                              </div>
+                              <!--div class="col-md-3">
+                                  <h3>Achievements</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <li><a href="#"><i class="fa fa-angle-right"></i>Departments</a></li>
+                                      <li><a href="#"><i class="fa fa-angle-right"></i>Students</a></li>
+                                      <li><a href="#"><i class="fa fa-angle-right"></i>Facalties</a></li>
+                                  </ul>
+                              </div-->
+                          </div>
+                      </li>
+                  </ul>
+              </li>
+              <!-- End Campus Life -->
+  
+              <li itemprop="name" class="">
+                  <a itemprop="url" href="/circular">
+                      Circulars
+                  </a>
+              </li>
+  
+              <!-- Placement-->
+              <li itemprop="name" class="">
+                  <a itemprop="url" href="/placement-cell">
+                      Placement
+                  </a>
+              </li>
+  
+              <!-- Others megamenu -->
+              <li class="dropdown mega-menu">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Innovation and Startups</a>
+                  <ul class="dropdown-menu">
+                      <li>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <h3>Innovation and Startups</h3>
+                                  <div class="divider"></div>
+                                  <ul class="menu">
+                                      <!-- <li itemprop="name"><a itemprop="url" href="/upload/pdf/news/2018/SSIP.pdf" target="_blank"><i class="fa fa-angle-right"></i>SSIP</a></li> -->
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>SSIP</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Design Lab</a></li>
+  
+                                      <li itemprop="url"><a itemprop="url" href="/upload/pdf/aarambh/3. IPR and Patent.pdf" target="_blank"><i class="fa fa-angle-right"></i>Patents</a></li>
+                                      <li itemprop="url"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Research Grants</a></li>
+  
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Incubation Center</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Information on Covid-19</a></li>
+                                      <li itemprop="name"><a itemprop="url" href="/"><i class="fa fa-angle-right"></i>Kaizen 2K21</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </li>
+                  </ul>
+              </li>
+  
+              <li itemprop="name">
+                  <a itemprop="url" href="http://ldce.ac.in/admissions/NIRF">
+                      NIRF
+                  </a>
+              </li>
+  
+              <li itemprop="name">
+                  <a itemprop="url" target="_blank" href="http://ldce.ac.in/upload/pdf/news/2021/ldce-ariia-report-2020-21-QkTQHT.pdf">
+                      ARIIA
+                  </a>
+              </li>
+  
+  
+              <!-- end of "others" menu -->
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <!-- Search Block -->
+              <!--<li class="no-border">
+                  <i class="search fa search-btn fa-search"></i>
+                  <div class="search-open" style="display: block;">
+                      <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search">
+                          <span class="input-group-btn">
+                              <button class="btn-u" type="button">Go</button>
+                          </span>
+                      </div>
+                  </div>
+              </li>-->
+              <!-- End Search Block -->
+          </ul>
+      </div>
+  </nav>
+</div>
+
 
     <div class="container">
       <div class="row">
@@ -630,7 +972,6 @@
         </div>
       </div>
     </div>
-
     <!-- <div class="vision container mt-5 text-left shadow-sm p-4">
       <h2 class="vision-title">Vision</h2>
       <div class="hr-style"></div>
